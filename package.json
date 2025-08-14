@@ -1,5 +1,5 @@
 {
-  "name": "jetbrains-newui-light-product-icon-theme",
+  "name": "jetbrains-product-icon-theme-ui",
   "version": "0.1.0",
   "publisher": "SoulFriends",
   "engines": {
@@ -8,11 +8,16 @@
   "contributes": {
     "productIconThemes": [
       {
-        "id": "jetbrains-newui-light-product-icon-theme",
-        "label": "jetbrainsNewuiLightProductIconTheme",
+        "id": "jetbrains-product-icon-theme-ui",
+        "label": "jetbrainsProductIconThemeUI",
         "path": "./theme/v1-product-icon-theme.json"
       }
     ]
+  },
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShiGongZhi/jetbrains-newui-light-product-icon-theme"
   },
   "scripts": {
     "updateFont": "node ./build/updateFont.js",

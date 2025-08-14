@@ -1,40 +1,25 @@
-# Product Icon Theme Samples
+# Product Icon Theme
 
-[Product icons themes](https://code.visualstudio.com/api/extension-guides/product-icon-theme) allow theme authors to customize the icons used in VS Code's built-in views: all icons except file icons (covered by file icon themes) and icons contributed by extensions.
+<div style="display: flex; gap: 10px; align-items: flex-start;">
+  <img src="image.png" alt="Image 1" style="max-width: 300px; height: auto;">
+  <img src="image-1.png" alt="Image 2" style="flex: 1; max-width: 100%; height: auto; object-fit: contain;">
+</div>
 
-This sample provides a product icon theme with icons used in VS Code 1.0.
+To get the same color as jetBrains, add the following configuration to settings.json
 
-The sample also contains a build script that creates the icon font from svg images.
-
-## Demo
-
-VSCode V1.0 Icons
-
-![Sample VSCode 1.0](./demo.png)
-
-
-## VS Code API
-
-### Contribution Points
-
-- [contributes.productIconThemes](https://code.visualstudio.com/api/references/contribution-points#contributes.productIconThemes)
-
-## Running the sample
-
-- Press `F5` to open a new window with your extension loaded.
-- The extension development host window will automatically select the theme defined in the extension. To manually select a product icon theme, run the `Preferences: Product Icon Theme` command and select your theme.
-
-## Make changes
-
-To add or change icons in the icon font:
-
-- add or change the svg icons to the `icons/` folder
-- update the `build/updateFont.js` file to add the new icon names to list of icons
-- run `npm run updateFont`
-- run `npm run showFont` to open `theme/vscode-10.html` in a browser. The page shows the icons in the font.
-
-To change the icon theme:
-
-- modify `theme/v1-product-icon-theme.json` to associate font icons to VS Code icon IDs
-- test the theme by running the extension (`F5`)
-- changes to the product theme file are applied live in the extension development host window. No need to relaunch the extension.
+```json
+"workbench.colorCustomizations": {
+  "symbolIcon.variableForeground": "#E56D17",
+  "symbolIcon.constantForeground": "#E56D17",
+  "symbolIcon.functionForeground": "#DB3B4B",
+  "symbolIcon.methodForeground": "#DB3B4B",
+  "symbolIcon.propertyForeground": "#834DF0",
+  "symbolIcon.fieldForeground": "#834DF0",
+  "symbolIcon.enumeratorMemberForeground": "#834DF0",
+  "symbolIcon.interfaceForeground": "#208A3C",
+  "symbolIcon.classForeground": "#3574F0",
+  "symbolIcon.enumeratorForeground": "#3574F0",
+  "symbolIcon.moduleForeground": "#3574F0",
+  "symbolIcon.namespaceForeground": "#3574F0"
+}
+```
