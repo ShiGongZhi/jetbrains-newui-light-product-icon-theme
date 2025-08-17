@@ -4,16 +4,11 @@ const path = require('path')
 
 const svgs = [
   'symbol-class.svg',
-  'explorer-view.svg',
-  'search-view.svg',
-  'debug-view.svg',
-  'git-view.svg',
-  'extensions-view.svg',
-  'smiley.svg',
-  'folding-expanded.svg',
-  'folding-collapsed.svg',
-  'expando-expanded.svg',
-  'expando-collapsed.svg',
+  'chevron-down.svg',
+  'chevron-right.svg',
+  'chevron-up.svg',
+  'chevron-left.svg',
+  'project.svg',
 ].map((name) => path.join(__dirname, '..', 'icons', name))
 
 async function generateFont() {
@@ -25,6 +20,7 @@ async function generateFont() {
       verbose: true,
       normalize: true,
       sort: false,
+      fontHeight: 1000,
     })
     const dest = path.join(__dirname, '..', 'theme', 'vscode-10.woff')
     fs.writeFileSync(dest, result.woff, 'binary')

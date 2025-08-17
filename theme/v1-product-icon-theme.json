@@ -4,7 +4,7 @@
       "id": "jetbrains-symbol-icons",
       "src": [
         {
-          "path": "./jetbrains-product-icons.woff",
+          "path": "./jetbrains-icons.woff",
           "format": "woff"
         }
       ],
@@ -141,8 +141,8 @@
     ui图标
     */
     "explorer-view-icon": {
-      "fontCharacter": "\\1",
-      "fontId": "jetbrains-product-icon-theme"
+      "fontCharacter": "\\e005",
+      "fontId": "jetbrains-icons"
     },
     "source-control": {
       "fontCharacter": "\\13",
@@ -159,6 +159,26 @@
     "terminal": {
       "fontCharacter": "\\6",
       "fontId": "jetbrains-product-icon-theme"
+    },
+    "chevron-down": {
+      "fontCharacter": "\\e001",
+      "fontId": "jetbrains-icons"
+    },
+    "chevron-right": {
+      "fontCharacter": "\\e002",
+      "fontId": "jetbrains-icons"
+    },
+    "chevron-up": {
+      "fontCharacter": "\\e003",
+      "fontId": "jetbrains-icons"
+    },
+    "chevron-left": {
+      "fontCharacter": "\\e004",
+      "fontId": "jetbrains-icons"
+    },
+    "tree-item-expanded": {
+      "fontCharacter": "\\e001",
+      "fontId": "jetbrains-icons"
     }
 
     // "git-commit": {
@@ -243,30 +263,4 @@
     //   "fontId": "jetbrains-product-icon-theme"
     // }
   }
-  // "iconDefinitions": {
-  //   "search-view-icon": {
-  //     "fontCharacter": "\\e001"
-  //   },
-  //   "run-view-icon": {
-  //     "fontCharacter": "\\e002"
-  //   },
-  //   "extensions-view-icon": {
-  //     "fontCharacter": "\\e004"
-  //   },
-  //   "source-control-view-icon": {
-  //     "fontCharacter": "\\e003"
-  //   },
-  //   "tree-item-expanded": {
-  //     "fontCharacter": "\\e008"
-  //   },
-  //   "folding-expanded": {
-  //     "fontCharacter": "\\e006"
-  //   },
-  //   "folding-collapsed": {
-  //     "fontCharacter": "\\e007"
-  //   },
-  //   "feedback": {
-  //     "fontCharacter": "\\e005"
-  //   }
-  // }
 }
