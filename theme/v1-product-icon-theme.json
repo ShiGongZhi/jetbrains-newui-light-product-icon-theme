@@ -179,6 +179,14 @@
     "tree-item-expanded": {
       "fontCharacter": "\\e001",
       "fontId": "jetbrains-icons"
+    },
+    "folder": {
+      "fontCharacter": "\\e005",
+      "fontId": "jetbrains-icons"
+    },
+    "symbol-folder": {
+      "fontCharacter": "\\e005",
+      "fontId": "jetbrains-icons"
     }
 
     // "git-commit": {
