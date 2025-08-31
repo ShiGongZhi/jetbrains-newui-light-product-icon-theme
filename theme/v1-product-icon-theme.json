@@ -83,6 +83,10 @@
       "fontCharacter": "\\E901",
       "fontId": "jetbrains-symbol-icons"
     },
+    "symbol-constructor": {
+      "fontCharacter": "\\e006",
+      "fontId": "jetbrains-icons"
+    },
     "symbol-snippet": {
       "fontCharacter": "\\E90F",
       "fontId": "jetbrains-symbol-icons"
@@ -108,16 +112,12 @@
       "fontCharacter": "\\E902",
       "fontId": "jetbrains-symbol-icons"
     },
-    "symbol-constructor": {
-      "fontCharacter": "\\E908",
-      "fontId": "jetbrains-symbol-icons"
-    },
     "symbol-operator": {
       "fontCharacter": "\\E909",
       "fontId": "jetbrains-symbol-icons"
     },
     "symbol-parameter": {
-      "fontCharacter": "\\E90A",
+      "fontCharacter": "\\E90b",
       "fontId": "jetbrains-symbol-icons"
     },
     // E90E unused

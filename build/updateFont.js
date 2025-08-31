@@ -9,6 +9,7 @@ const svgs = [
   'chevron-up.svg',
   'chevron-left.svg',
   'project.svg',
+  'constructor.svg',
 ].map((name) => path.join(__dirname, '..', 'icons', name))
 
 async function generateFont() {
