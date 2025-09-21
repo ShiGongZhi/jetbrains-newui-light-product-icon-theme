@@ -141,8 +141,8 @@
     ui图标
     */
     "explorer-view-icon": {
-      "fontCharacter": "\\e005",
-      "fontId": "jetbrains-icons"
+      "fontCharacter": "\\1",
+      "fontId": "jetbrains-product-icon-theme"
     },
     "source-control": {
       "fontCharacter": "\\13",
