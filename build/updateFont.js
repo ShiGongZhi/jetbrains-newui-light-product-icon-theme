@@ -23,7 +23,7 @@ async function generateFont() {
       sort: false,
       fontHeight: 1000,
     })
-    const dest = path.join(__dirname, '..', 'theme', 'vscode-10.woff')
+    const dest = path.join(__dirname, '..', 'theme', 'font', 'other-icons.woff')
     fs.writeFileSync(dest, result.woff, 'binary')
     console.log(`Font created at ${dest}`)
   } catch (e) {

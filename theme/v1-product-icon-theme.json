@@ -4,7 +4,7 @@
       "id": "jetbrains-symbol-icons",
       "src": [
         {
-          "path": "./jetbrains-icons.woff",
+          "path": "./font/jetbrains-symbol-icons.woff",
           "format": "woff"
         }
       ],
@@ -15,7 +15,7 @@
       "id": "jetbrains-product-icon-theme",
       "src": [
         {
-          "path": "./jetbrains-product-icon-theme.woff2",
+          "path": "./font/jetbrains-product-icons.woff2",
           "format": "woff2"
         }
       ],
@@ -23,10 +23,10 @@
       "style": "normal"
     },
     {
-      "id": "jetbrains-icons",
+      "id": "other-icons",
       "src": [
         {
-          "path": "./vscode-10.woff",
+          "path": "./font/other-icons.woff",
           "format": "woff"
         }
       ],
@@ -85,7 +85,7 @@
     },
     "symbol-constructor": {
       "fontCharacter": "\\e006",
-      "fontId": "jetbrains-icons"
+      "fontId": "other-icons"
     },
     "symbol-snippet": {
       "fontCharacter": "\\E90F",
@@ -150,43 +150,44 @@
     },
     "outline-view-icon": {
       "fontCharacter": "\\e000",
-      "fontId": "jetbrains-icons"
+      "fontId": "other-icons"
     },
-    "search": {
-      "fontCharacter": "\\4",
-      "fontId": "jetbrains-product-icon-theme"
-    },
+    // 图标偏小偏下
+    // "search": {
+    //   "fontCharacter": "\\4",
+    //   "fontId": "jetbrains-product-icon-theme"
+    // },
     "terminal": {
       "fontCharacter": "\\6",
       "fontId": "jetbrains-product-icon-theme"
     },
     "chevron-down": {
       "fontCharacter": "\\e001",
-      "fontId": "jetbrains-icons"
+      "fontId": "other-icons"
     },
     "chevron-right": {
       "fontCharacter": "\\e002",
-      "fontId": "jetbrains-icons"
+      "fontId": "other-icons"
     },
     "chevron-up": {
       "fontCharacter": "\\e003",
-      "fontId": "jetbrains-icons"
+      "fontId": "other-icons"
     },
     "chevron-left": {
       "fontCharacter": "\\e004",
-      "fontId": "jetbrains-icons"
+      "fontId": "other-icons"
     },
     "tree-item-expanded": {
       "fontCharacter": "\\e001",
-      "fontId": "jetbrains-icons"
+      "fontId": "other-icons"
     },
     "folder": {
       "fontCharacter": "\\e005",
-      "fontId": "jetbrains-icons"
+      "fontId": "other-icons"
     },
     "symbol-folder": {
       "fontCharacter": "\\e005",
-      "fontId": "jetbrains-icons"
+      "fontId": "other-icons"
     }
 
     // "git-commit": {
